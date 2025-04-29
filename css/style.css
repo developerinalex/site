@@ -1,5 +1,15 @@
-table {
-    border: 5px solid black;
-    padding: 15px;
-    width: 50%;
+#paises {
+    border: 1px solid red;
+    width: 65%;
+    height: 10%;
+    margin: auto;
+}
+
+td {
+    border: 3px solid black;
+}
+
+
+img {
+    width: 250px
 }
