@@ -37,6 +37,13 @@ img {
     justify-content: center;
 }
 
+#hobbie {
+    border-radius: 50%;
+    width: 25%;
+    min-height: 100px;
+    max-height: 350px;
+}
+
 a {
     color: #ffffff;
 }
