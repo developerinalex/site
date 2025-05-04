@@ -19,7 +19,7 @@ h1 {
 }
 
 #paises {
-    border: 1px solid rgb(0, 0, 0);
+    border: 2px solid #f9b17a;
     width: 55%;
     height: 10%;
     margin: auto;
@@ -32,7 +32,7 @@ td {
 
 img {
     width: 250px;
-    height: 12rem;
+    height: 25rem;
     display: flex;
     justify-content: center;
 }
@@ -62,14 +62,25 @@ button {
     color: #ffffff;
     font-style: normal;
     font-weight: bolder;
+    margin: auto;
+    display: block;
+    align-items: center;
+    margin-bottom: 2em;
+    width: 8em;
+    height: 4em;
 }
 
 #content {
-    margin: auto;
-    width: 50%;
-    height: 10%;
-   
-    color: #000000;
-    padding: 15px;
+    display: none;
+}
+
+#mensagem {
+    background-color: #2d3250;
     border-radius: 20px;
+    border: #f9b17a solid 2px;
+    width: 25%;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+    color: #ffffff;
 }
